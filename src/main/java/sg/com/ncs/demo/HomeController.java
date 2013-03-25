@@ -22,7 +22,8 @@ public class HomeController {
     public String home() {
         log.info("HomeController 123: Passing through...");
      
-        return "WEB-INF/views/home.jsp";
+        //return "WEB-INF/views/home.jsp";
+        return "WEB-INF/views/custom.jsp";
     }
 
 	@RequestMapping(value = "/upload", method = RequestMethod.POST)
